@@ -1,25 +1,12 @@
 {
-  "name": "github-action-serverless-with-python-requirements",
-  "version": "1.0.0",
-  "description": "This actions installs Serverless and runs a deploy using the serverless-python-requirements plugin. You must install the exeq npm package for this plugin to work successfully.",
-  "main": "index.js",
+  "name": "blog-github-actions-aws-lambda-python",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "serverless deploy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dhollerbach/github-action-serverless-with-python-requirements.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dhollerbach/github-action-serverless-with-python-requirements/issues"
-  },
-  "homepage": "https://github.com/dhollerbach/github-action-serverless-with-python-requirements#readme",
-  "dependencies": {
-    "@actions/core": "^1.2.3",
-    "@actions/github": "^2.1.1",
-    "exeq": "^3.0.0"
+  "devDependencies": {
+    "serverless": "^1.67.0",
+    "serverless-python-requirements": "^5.1.0"
   }
-}
