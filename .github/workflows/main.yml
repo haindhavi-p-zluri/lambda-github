@@ -1,5 +1,4 @@
 name: deploy-aws-lambda
-
 on:
   push:
     branches:
