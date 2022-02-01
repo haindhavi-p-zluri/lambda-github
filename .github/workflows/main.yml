@@ -1,4 +1,4 @@
-name: deploy-lambda
+name: deploylambda
 env:
   RUNNER_PYTHON_VERSION               : "3.8"
   PYTHON_ENV                          : "python3.8"
